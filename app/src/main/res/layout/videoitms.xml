@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+       android:id="@+id/youtube_video"
+        app:showFullScreenButton="true"
+        android:layout_width="match_parent"
+        app:showYouTubeButton="true"
+        app:autoPlay="false"
+        app:enableAutomaticInitialization="true"
+        android:layout_height="200dp"/>
+
+</LinearLayout>
